@@ -2,7 +2,7 @@
 PureQuantumGoL : A pure quantum game of Life exclusively driven by quantum computation, with no classical elements.
 
 # 2025/4/27
-・次世代OFF/ONをXゲート方式で計算するのは、複数ルールへヒットした際の挙動からして論理的に不可能。  
+・次世代セルのOFF/ONをXゲート方式で計算するのは、複数ルールへヒットした際の挙動からして論理的に不可能。  
 ・2次元ライフゲームが格子上に存在であること、とりわけ、  
   モデルに触る前の段階でルールにヒットするパターンの総数を事前に決定できることを利用すると、  
   前よりはライフゲームとして破綻していないモデルを作れたけれども、古典計算が入ってしまうのでpureではなくなる、、、  
