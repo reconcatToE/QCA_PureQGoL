@@ -26,8 +26,8 @@ P_k^{(i,j)} = |k\rangle \langle k|
 $$
 
 ### 2. ユニタリ演算子 / Unitary Operator
-セル `(i,j)` の内部状態状態にしたがって、回転ゲートを適用：  
-The unitary operator `U_{i,j}` applies a rotation corresponding to pattern `k`:
+セル `(i,j)` の内部状態状態に従って、回転ゲート \( R_x \) を適用：  
+The unitary operator \( U_{i,j} \) applies a rotation gate \( R_x \) corresponding to the internal state of cell `(i,j)` based on pattern `k`.
 - 回転角 `θ`（量子ゲート回転用の回転角）は、ルールに基づく**可能な全パターン数** `M_k`: で割る。  
   The rotation angle `\theta` is divided by the total number of patterns that hit the rule.　　
 
