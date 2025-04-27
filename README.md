@@ -15,11 +15,11 @@ PureQuantumGoL : A pure quantum game of Life exclusively driven by quantum compu
   今はこれが勉強する動機となっているので、好奇心がある限りは継続する。  
   とりあえずここまででこれからのことは次考える。コード作るのも億劫なので今回は数式だけ、、、  
 ・次は「量子ビットを使って論理的な空間を格子を作ったうえで、   
-  量子ウォークの確率振幅を流しながらGoLっぽい相互作用計算を乗せる」
-  というのを試してみてもいいかもしれない。
-  本当は素の量子ビットを1セルで扱いたいという理由があったんだけど、、、
+  量子ウォークの確率振幅を流しながらGoLっぽい相互作用計算を乗せる」  
+  というのを試してみてもいいかもしれない。    
+  本当は素の量子ビットを1セルで扱いたいという理由があったんだけど、、、  
 
-[Imperfect Model: Classical computation  Included] 2025.04.27
+[ imperfect model: classical computation  Included ] 2025.04.27 
 ### 1. セルの状態 / Cell State
 - 各セルは **ON**（`|1⟩`）または **OFF**（`|0⟩`）の内部状態をとる。  
   Each cell is either **ON** (`|1⟩`) or **OFF** (`|0⟩`).
