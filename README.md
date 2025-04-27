@@ -19,6 +19,7 @@ PureQuantumGoL : A pure quantum game of Life exclusively driven by quantum compu
   というのを試してみてもいいかもしれない。
   本当は素の量子ビットを1セルで扱いたいという理由があったんだけど、、、
 
+[Imperfect Model: Classical computation  Included] 2025.04.27
 ### 1. セルの状態 / Cell State
 - 各セルは **ON**（`|1⟩`）または **OFF**（`|0⟩`）の内部状態をとる。  
   Each cell is either **ON** (`|1⟩`) or **OFF** (`|0⟩`).
