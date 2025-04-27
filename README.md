@@ -1,5 +1,5 @@
 # QCA_PureQGoL Challenge
-PureQGoL : A pure quantum game of Life exclusively driven by quantum computation, with no classical elements.
+PureQuantumGoL : A pure quantum game of Life exclusively driven by quantum computation, with no classical elements.
 
 # 2025/4/27
 ・次世代OFF/ONをXゲート方式で計算するのは、複数ルールへヒットした際の挙動からして論理的に不可能。  
