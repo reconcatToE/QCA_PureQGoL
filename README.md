@@ -35,7 +35,7 @@ $$
 セル `(i,j)` の内部状態状態に従って、回転ゲート \( R_x \) を適用：  
 The unitary operator \( U_{i,j} \) applies a rotation gate \( R_x \) corresponding to the internal state of cell `(i,j)` based on pattern `k`.
 - 回転角 `θ`（量子ゲート回転用の回転角）は、ルールに基づく**可能な全パターン数** `M_k`: で割る。  
-  The rotation angle `\theta` is divided by the total number of patterns that hit the rule.　　
+The rotation angle `θ` (used for quantum gate rotation) is divided by the total number of **possible patterns** `M_k`: based on the rule.
 
 $$
 U_{i,j} = \prod_k \left( P_k^{(i,j)} \otimes R\left(\frac{\pi}{M_k}\right) \right)
